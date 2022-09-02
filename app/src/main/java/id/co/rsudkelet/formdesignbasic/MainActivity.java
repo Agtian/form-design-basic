@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         int id = item.getItemId();
         if (id == R.id.item_done) {
-            Toast.makeText(getApplicationContext(), "done", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "Done", Toast.LENGTH_SHORT).show();
             return true;
         }
         return super.onOptionsItemSelected(item);
